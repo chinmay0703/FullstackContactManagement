@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const app = express();
 const port = 3001;
-mongoose.connect('mongodb+srv://chinmay:LIP54dqmq0o0dODS@contact.cjo104s.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true });
+// 
 const contactSchema = new mongoose.Schema({
     name: String,
     phone: String,
